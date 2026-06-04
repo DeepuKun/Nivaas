@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
 @import "tailwindcss";
+
 *{
   font-family: Outfit;
 }
@@ -13,4 +14,14 @@
 }
 .font-gravitas {
   font-family: "Gravitas One", serif !important;
+}
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
