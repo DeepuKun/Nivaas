@@ -23,11 +23,11 @@ const NavBar = () => {
                 <img className='h-15' src='Nivaas Logo Text.png'></img>
             </div>
             <div className='md:flex gap-5 text-[20px] hidden md:block md:w-160 justify-center '>
-                <NavLink to='/'><h2 className='hover:text-emerald-700 hover:text-2xl transition-all duration-400'>Home</h2></NavLink>
-                <NavLink to='/hotels'><h2 className='hover:text-emerald-700 hover:text-2xl transition-all duration-400'>Hotels</h2></NavLink>
-                <NavLink to='/experience'><h2 className='hover:text-emerald-700 hover:text-2xl transition-all duration-400'>Experience</h2></NavLink>
-                <NavLink to='/about'><h2 className='hover:text-emerald-700 hover:text-2xl transition-all duration-400'>About</h2></NavLink>
-                {user && <NavLink to='/dashboard'><h2 className='hover:text-emerald-700 hover:text-2xl transition-all duration-400'>Dashboard</h2></NavLink>}
+                <NavLink to='/'><h2 className='hover:text-emerald-700 hover:text-lg hover:font-bold transition-all duration-400'>Home</h2></NavLink>
+                <NavLink to='/hotels'><h2 className='hover:text-emerald-700 hover:text-lg hover:font-bold transition-all duration-400'>Hotels</h2></NavLink>
+                <NavLink to='/experience'><h2 className='hover:text-emerald-700 hover:text-lg hover:font-bold transition-all duration-400'>Experience</h2></NavLink>
+                <NavLink to='/about'><h2 className='hover:text-emerald-700 hover:text-lg hover:font-bold transition-all duration-400'>About</h2></NavLink>
+                {user && <NavLink to='/dashboard'><h2 className='hover:text-emerald-700 hover:text-lg hover:font-bold transition-all duration-400'>Dashboard</h2></NavLink>}
             </div>
 
             <div className='flex gap-2 mr-4 md:mr-10 items-center'>

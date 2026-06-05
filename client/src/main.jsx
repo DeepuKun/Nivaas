@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
 
   < BrowserRouter>
-   <ClerkProvider>
+   <ClerkProvider  publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}>
     <App />
   </ClerkProvider>
   </ BrowserRouter>

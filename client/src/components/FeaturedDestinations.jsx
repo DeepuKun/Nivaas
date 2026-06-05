@@ -15,7 +15,7 @@ const FeaturedDestinations = () => {
             ))}
         </div>
         <div className='flex w-screen items-center justify-center h-20'>
-           <NavLink to='/rooms'><button className='shadow-2xs shadow-black h-10 w-60 bg-emerald-900 text-white rounded-2xl'>View All</button></NavLink> 
+           <NavLink to='/rooms'><button className='shadow-2xs shadow-black h-10 w-60 bg-emerald-900 text-white rounded-2xl hover:bg-emerald-700'>View All</button></NavLink> 
         </div>
         
     </div>
