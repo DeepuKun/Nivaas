@@ -61,7 +61,7 @@ const cardsData = [
 
 
   return (
-    <div>
+    <div  data-aos="fade-up">
          <h1 className='font-playfair-display font-bold text-6xl mt-10 md:mt-30 pl-5 md:pl-10'>Trusted by Travelers <span className='text-emerald-900 font-playfair-display'>Worldwide</span></h1>
         <h2 className='text-2xl text-gray-400 mt-5 pl-5 md:pl-10'>Real feedback from guests who found their perfect stay.</h2>
         <br></br>

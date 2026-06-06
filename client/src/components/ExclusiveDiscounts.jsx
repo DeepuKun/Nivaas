@@ -5,14 +5,14 @@ const ExclusiveDiscounts = () => {
   return (
     <div>
         <div>
-        <div>
+        <div  data-aos="fade-up">
             <h1 className='font-playfair-display font-bold text-6xl mt-5 md:mt-30 pl-5 md:pl-10'>Exclusive <span className='text-emerald-900 font-playfair-display'>Discounts</span></h1>
             <h2 className='text-2xl text-gray-400 mt-5 pl-5 md:pl-10'>Unlock limited-time deals on handpicked luxury stays.</h2>
         </div>
         </div>
         <div className='md:flex items-center justify-center w-screen mt-10'>
              {exclusiveOffers.map((item)=>(
-                <div key={item._id} className='h-60 w-90 bg-cover rounded-2xl m-5 relative shadow-lg shadow-black' style={{backgroundImage:`url(${item.image})`}}>
+                <div key={item._id} className='h-60 w-90 bg-cover rounded-2xl m-5 relative shadow-lg shadow-black'  data-aos="flip-left" style={{backgroundImage:`url(${item.image})`}}>
                     <p className='bg-white rounded-full p-2 h-9 w-25 m-2'>{item.priceOff}% OFF</p>
                     <p className='text-white font-bold font-playfair-display text-2xl m-2'>{item.title}</p>
                     <p className='text-gray-300 m-2'>{item.description}</p>

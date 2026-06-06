@@ -2,7 +2,7 @@ import React from 'react'
 import {assets,cities} from '../assets/assets'
 const Find = () => {
   return (
-    <div className='md:m-2 m-2 mt-5 h-25 shadow-2xl shadow-black/50 rounded-2xl md:w-[98.5vw]'>
+    <div  className='md:m-2 m-2 mt-5 h-25 shadow-2xl shadow-black/50 rounded-2xl md:w-[98.5vw]'>
        <form className=' text-gray-500 rounded-lg px-6 py-4 md:w-[98.5vw] bg-white flex flex-col md:flex-row max-md:items-start gap-4  md:gap-15 justify-around'>
 
             <div>

@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 
 const FeaturedDestinations = () => {
   return (
-    <div>
+    <div  data-aos="fade-up">
         <h1 className='font-playfair-display font-bold text-6xl mt-70 md:mt-30 pl-5 md:pl-10'>Featured <span className='text-emerald-900 font-playfair-display'>Destinations</span></h1>
         <h2 className='text-2xl text-gray-400 mt-5 pl-5 md:pl-10'>Discover handpicked stays across the most beautiful destinations.</h2>
         <div className=' md:flex md:gap-2 md:mt-10 m-5 '>

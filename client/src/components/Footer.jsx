@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="mt-20">
+        <div className="mt-20"  data-aos="fade-up">
             <style>
                 {`
                     @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
@@ -15,10 +15,10 @@ const Footer = () => {
                         
                         <div className="lg:col-span-3 space-y-6">
                             <a href="https://prebuiltui.com" className="block">
-                                <img className="h-30 w-30" src="Nivaas Logo.png"></img>
+                                <img  data-aos="fade-up" className="h-30 w-30" src="Nivaas Logo.png"></img>
                             </a>
-                            <p className="text-sm/6 text-neutral-600 max-w-96">Find your perfect stay in just a few clicks. Comfort, luxury, and affordability—all in one place.</p>
-                            <div className="flex gap-5 md:gap-6 order-1 md:order-2">
+                            <p  data-aos="fade-up" className="text-sm/6 text-neutral-600 max-w-96">Find your perfect stay in just a few clicks. Comfort, luxury, and affordability—all in one place.</p>
+                            <div  data-aos="fade-up" className="flex gap-5 md:gap-6 order-1 md:order-2">
                                 {/* X (Twitter) */}
                                 <a href="#" className="text-neutral-600 hover:text-neutral-700">
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -50,18 +50,18 @@ const Footer = () => {
                             </div>
                         </div>
 
-                            <div className=" flex items-center justify-center h-40 md:w-150 md:mt-20">
+                            <div  data-aos="fade-up" className=" flex items-center justify-center h-40 md:w-150 md:mt-20">
                                 <h1 className="md:text-6xl text-4xl text-emerald-900 font-ballet">find   your   Nivaas...</h1>
                             </div>
                     </div>
 
-                    <div className="max-w-7xl mx-auto md:mt-12 pt-4 border-t border-neutral-300 flex justify-between items-center">
+                    <div  data-aos="fade-up" className="max-w-7xl mx-auto md:mt-12 pt-4 border-t border-neutral-300 flex justify-between items-center">
                         <p className="text-neutral-600 text-sm">© 2026 Nivaas</p>
                         <p className='text-sm text-neutral-600'>All right reserved.</p>
                     </div>
                     <div className="relative">
                         <div className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-3xl h-full max-h-64 bg-slate-100 rounded-full blur-[100px] pointer-events-none"/>
-                        <h1 className=" text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,15vw,15rem)] [-webkit-text-stroke:1px_#D4D4D4] mt-6" >
+                        <h1 data-aos="fade-up" className=" text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,15vw,15rem)] [-webkit-text-stroke:1px_#D4D4D4] mt-6" >
                             NIVAAS
                         </h1>
                     </div>

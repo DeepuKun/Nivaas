@@ -11,7 +11,7 @@ const AllHotels = () => {
          
         <div>
             {roomsDummyData.map((room)=>(
-              <NavLink to={`/rooms/${room._id}`} onClick={scrollTo(0,0)}>
+              <NavLink to={`/rooms/${room._id}`} onClick={scrollTo(0,0)}  data-aos="fade-up">
                  <div className=' m-2 md:m-10'>
                     
                     <img className=' rounded-2xl h-60 w-100 ' src={room.images[0]}></img>

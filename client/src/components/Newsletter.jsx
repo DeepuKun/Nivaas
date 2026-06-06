@@ -1,6 +1,6 @@
 export default function NewsLetter() {
     return (
-        <section className="flex flex-col items-center text-white md:mt-20 md:m-0 m-5 ">
+        <section className="flex flex-col items-center text-white md:mt-20 md:m-0 m-5 " data-aos="fade-up">
             <div className="flex flex-col items-center">
                 <h2 className="text-center text-6xl font-playfair max-w-2xl text-emerald-900">Subscribe our <span className=" text-white bg-gradient-to-t from-emerald-700 to-white p-1 bg-left inline-block bg-no-repeat">newsletter</span></h2>
                 <p className="text-center text-slate-400 max-w-lg mt-3">Get handpicked stays and special offers straight to your inbox.</p>
