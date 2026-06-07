@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 
 const HotelCard = ({room, index}) => {
   return (
-    <NavLink to={'/hotel/'+ room._id} onClick={()=>scrollTo(0,0)} key={room._id} className="m-2 shadow-lg shadow-black/50 rounded-2xl" data-aos="fade-up"
+    <NavLink to={'/rooms/'+ room._id} onClick={()=>scrollTo(0,0)} key={room._id} className="m-2 shadow-lg shadow-black/50 rounded-2xl" data-aos="fade-up"
 data-aos-duration="5000" >
         <img className=' md:h-50 md:w-80 rounded-2xl mt-5 md:mt-0' src={room.images[0]}/>
         <p className='px-3 py1 absolute top-3 left-3 bg-white text-grey-800 rounded-full'>Best Seller</p>
