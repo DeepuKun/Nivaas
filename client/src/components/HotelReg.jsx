@@ -2,7 +2,11 @@ import React from 'react'
 
 const HotelReg = () => {
   return (
-    <div>HotelReg</div>
+    <div>
+      <div>
+        Hotel Booking Page
+      </div>
+    </div>
   )
 }
 

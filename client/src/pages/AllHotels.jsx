@@ -45,9 +45,9 @@ const AllHotels = () => {
 
 
   return (
-    <div className="pt-2 flex flex-col md:flex-row">
+    <div className="pt-2  flex flex-col md:flex-row">
       {/* Filters */}
-        <div className={`mt-30  md:hidden w-80 border-2 border-gray-300 m-10 rounded-2xl ${openFilters?'h-110':'h-22'}`}>
+        <div className={`mt-30  md:hidden w-80 border-2  border-gray-300 m-10 rounded-2xl ${openFilters?'h-110':'h-22'}`}>
           <div>
             <p className='font-extrabold text-xl m-2 text-emerald-900'>FILTERS</p>
             <span className='bg-emerald-900 text-white rounded-sm p-1 m-2 h-auto' onClick={()=>{setOpenFilters(!openFilters)}}>{openFilters?'Hide':'Show'}</span>
