@@ -57,7 +57,7 @@ const ListRoom = () => {
   ))}
 </div>
 
-{/* Desktop Table */}
+{/* Desktop View Table */}
 <div className="hidden md:block overflow-x-auto">
   {/* table */}
   <div className="hidden md:block overflow-x-auto mt-6 rounded-xl border border-emerald-100 bg-white shadow-sm">
@@ -107,7 +107,6 @@ const ListRoom = () => {
         </tr>
       ))}
     </tbody>
-
   </table>
 </div>
 </div>
