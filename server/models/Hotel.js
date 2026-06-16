@@ -1,0 +1,13 @@
+import mongoose, { Schema } from "mongoose";
+
+const hotelSchema = new mongoose.Schema({
+    name: {type:String, required :true},
+    addrss: {type:String, required :true},
+    contact: {type:String, required :true},
+    owner: {type:String, required :true,ref: User},
+    owner: {type:String, required :true,ref: User}
+}, {timestamps:true});
+
+const Hotel = mongoose.model("Hotel", hotelSchema);
+
+export default Hotel;
