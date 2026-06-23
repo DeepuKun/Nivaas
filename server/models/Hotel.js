@@ -5,7 +5,7 @@ const hotelSchema = new mongoose.Schema({
     addrss: {type:String, required :true},
     contact: {type:String, required :true},
     owner: {type:String, required :true,ref: User},
-    owner: {type:String, required :true,ref: User}
+    cityr: {type:String, required :true}
 }, {timestamps:true});
 
 const Hotel = mongoose.model("Hotel", hotelSchema);
